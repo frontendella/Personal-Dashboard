@@ -31,7 +31,7 @@ div.top {
 }
 h1.time {
   text-align: center;
-  font-size: 5em;
+  font-size: 5rem;
 }
 ul {
   list-style-type: none;
@@ -51,4 +51,31 @@ div#crypto-top {
 }
 div#crypto-top span {
   margin-left: 0.5em;
+}
+
+div#weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+div#weather > img {
+  width: 6em;
+}
+.location {
+  margin: 0;
+  width: 100%;
+  text-align: right;
+  margin-top: -1em;
+  font-size: 1.2rem;
+}
+p.temp {
+  font-size: 2em;
+  margin: 0;
+  margin-left: -0.4em;
+}
+p#author {
+  font-size: 1rem;
 }

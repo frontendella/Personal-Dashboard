@@ -59,10 +59,12 @@ navigator.geolocation.getCurrentPosition(position => {
             return res.json()
         })
         .then(data => {
-
-            console.log(data.weather.icon)
+            console.log(data)
             weather.innerHTML = `
-            <img src="${data.weather.icon}"/>
+
+            <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"/>
+            <p class="temp">${Math.round(data.main.temp)}°</p>
+            <p class="location">${data.name} </p>
             `
         })
         .catch(err => console.error(err))
