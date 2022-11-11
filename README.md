@@ -1,4 +1,8 @@
-# Personal Dashboard (currently in the progress)  
+# Personal Dashboard: Chrome Extension for the new tab in Chrome browser 
+
+
+<img width="1347" alt="Screenshot 2022-11-10 at 9 07 49 PM" src="https://user-images.githubusercontent.com/82247833/201271657-e025210e-651a-4f86-a510-b252655d577e.png">
+
 
 <img width="1484" alt="Screenshot 2022-11-10 at 7 35 30 PM" src="https://user-images.githubusercontent.com/82247833/201257551-1f9c5e51-af55-4665-92ca-1d13f6042f94.png">
 
