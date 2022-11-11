@@ -12,7 +12,7 @@
 
 ## Description: 
 
-Chrome Extension for the new tab in Chrome browser
+Chrome Extension for the new tab in the Chrome browser
 
 * Clients / Servers 
 * Request / Response
